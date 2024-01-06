@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(131 131 131);
+}
+
+h1 {
+    color: #3dff00;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 6vw;
+    font-stretch: wider;
+    font-style: italic;
+    display: block;
+    margin: auto;
+    text-align: center;
+
+}
+
+.boxes {
+    display: flexbox;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: 1vh;
+    
+}
+.box {
+    width: 14vw;
+    height: 23vh;
+    background-color: blueviolet;
+    box-shadow: #45e2ab;
+    background:linear-gradient(47deg,#ffa800,#00f2ff);
+    text-align: center;
+    margin: 1vh 1vw;
+    padding: 1vh;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    justify-content: center;
+    
+}
+
+.players {
+    color: rgb(0, 0, 186);
+    display: flexbox;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.player {
+    font-size: 2vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 14vw;
+    font-weight: bold;
+    /* background-color: greenyellow; */
+    text-align: center;
+    margin: 1vh 1vw;
+    padding: 1vh;
+}
+.numb{
+    width:35px;
+    height: 35px;
+    margin:auto;
+    padding: auto;
+    display: flex;
+    /* border: 2px solid red; */
+    border-radius: 17.5px;
+    justify-content: center;
+    text-align: center;
+}
+.red{
+    background-color: red;
+}
